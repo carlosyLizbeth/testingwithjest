@@ -1,7 +1,7 @@
 import { Contacto, contactos } from "./contactos" 
 const findByEmail =(letra: string) => {
-    return contactos.filter((contactos)=> {
-        return contactos.first_name[0]== letra || contactos.last_name[0]== letra;
+    return contactos.filter((contacto)=> {
+        return contacto.first_name == letra || contacto.last_name == letra;
     })
 
 }

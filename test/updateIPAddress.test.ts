@@ -1,4 +1,4 @@
-import { updateIPAddress } from "../src/updateIPAddress";
+import { updateIPAddress } from "../src/updateIPAdress";
 import { Contacto, contactos } from "../src/contactos";
 
 describe("updateIPAddress", () => {
